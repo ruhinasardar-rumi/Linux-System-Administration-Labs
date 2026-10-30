@@ -1,20 +1,15 @@
-# \# Lab 17: File Permissions \& Ownership
+# Lab 17: File Permissions & Ownership
 
-
-
-## \## Objective
+## Objective
 
 Configure standard file access control levels using symbolic and octal modes, and manage owner/group permissions.
 
+---
 
+## Security Configurations
 
-### \## Security Configurations
+### 1. Permission Assignment
+- Modified Read/Write/Execute permissions using `chmod` (e.g., `chmod 755`, `chmod u+x`).
 
-##### 1\. \*\*Permission Assignment:\*\*
-
-&#x20;  - Modified Read/Write/Execute permissions using `chmod` (e.g., `chmod 755`, `chmod u+x`).
-
-##### 2\. \*\*Ownership Modifications:\*\*
-
-&#x20;  - Updated file and directory ownership using `chown` and `chgrp`.
-
+### 2. Ownership Modifications
+- Updated file and directory ownership using `chown` and `chgrp`.
