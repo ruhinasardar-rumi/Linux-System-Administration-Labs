@@ -1,24 +1,17 @@
-# \# Lab 15: Administrative Privileges \& User Auditing
+# Lab 15: Administrative Privileges & User Auditing
 
-
-
-## \## Objective
+## Objective
 
 Safely elevate permissions, manage system administrative access via `sudo`, and audit active user activity.
 
+---
 
+## Privilege & Audit Tasks
 
-### \## Privilege \& Audit Tasks
+### 1. Superuser Access
+- Switched system contexts using `su -`.
+- Managed root delegation via `/etc/sudoers` and `sudo`.
 
-##### 1\. \*\*Superuser Access:\*\*
-
-&#x20;  - Switched system contexts using `su -`.
-
-&#x20;  - Managed root delegation via `/etc/sudoers` and `sudo`.
-
-##### 2\. \*\*User Activity Logging:\*\*
-
-&#x20;  - Inspected active logged-in users with `w` and `who`.
-
-&#x20;  - Audited login history records using `last`.
-
+### 2. User Activity Logging
+- Inspected active logged-in users with `w` and `who`.
+- Audited login history records using `last`.
